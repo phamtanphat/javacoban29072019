@@ -21,5 +21,16 @@ class Ideone
 		int d = c++; // (bi?u th?c)
 		int e = (c > d) ? c : d; // Toán t? 3 ngôi
 		
-	}
+int a = 5;
+		int b = 6;
+			int a = 5;
+		int b = 6;
+		int c = a++ - b++ + b-- + ++a + ++b - --b;
+		//5 - b++ + b-- + ++a + ++b - --b;
+		// 5 - 6 + b-- + ++a + ++b - --b; a = 6 , b = 7
+		// 5 - 6 + 7 + ++a + ++b - --b; a = 6 , b = 6
+		//5 - 6 + 7 + 7 + ++b - --b; a = 7 , b = 6
+		//5 - 6 + 7 + 7 + 7 - --b ; a = 7  , b = 7
+		//5 - 6 + 7 + 7 + 7 - 6
+		System.out.print(c);
 }
