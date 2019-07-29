@@ -21,9 +21,8 @@ class Ideone
 		int d = c++; // (bi?u th?c)
 		int e = (c > d) ? c : d; // Toán t? 3 ngôi
 		
-int a = 5;
-		int b = 6;
-			int a = 5;
+		//Toán t? liên hoàn
+		int a = 5;
 		int b = 6;
 		int c = a++ - b++ + b-- + ++a + ++b - --b;
 		//5 - b++ + b-- + ++a + ++b - --b;
